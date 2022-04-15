@@ -11,17 +11,20 @@
 
 ## IMPLEMENTATION 
 
-- The complete code is given in "MOCKTAIL_NLP_PROJECT.ipynb" python notebook
-- The code is divided into 2 blocks.
+- There are three .ipynb files:
+ 	> Baseline mBERT model with Random Forest Classifier.<br>
+ 	> Improved mBERT model based on Gradient Boosting Regressor.<br>
+ 	> Final model based on DistilBERT with Random Forest Regressor.<br>
+- The codeS ARE divided into 2 blocks.
 1) Code for Data Extraction
 	> This part contains the code corresponding to extracting and storing the data in a modular way.
 2) Code for Model Implementation
-	> This part contains the code for the BEST model that we obtained among all the models.
+	> This part contains implementation of model to obtain the similarity score.
 - Most of the code is explained through comments
 - All the external libraries that are required are included within the cells.
-- So, if we are running this code on google colab uploading the dataset in google drive and the corresponding 
-  CSV files in google colab should be sufficient for proper working of code.We also need to make sure
-  that the path to dataset in google drive is properly set.
+- If we are running this code on google colab uploading the dataset in google drive and the corresponding 
+  CSV files in google colab should be sufficient for proper working of code.
+- We also need to make sure that the path to dataset in google drive is properly set.
 
 
 
